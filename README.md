@@ -32,11 +32,16 @@ them for use in LLM pipelines.
 
 📦 Requirements
 
-Key dependencies: - pytesseract (OCR support) - pillow (image
-handling) - transformers (for tokenization / chunking) - torch (LLM
-support, optional) - pymupdf (PDF reading) - tqdm (progress bar)
+Key dependencies: 
+- pytesseract (OCR support)
+- pillow (image handling)
+- transformers (for tokenization / chunking)
+- torch (LLM support, optional)
+- pymupdf (PDF reading)
+- tqdm (progress bar)
 
-See full list in requirements.txt.
+See full list in [requirements.txt](https://github.com/krishgoyal0/Architect-RAG-LLM-Assistant/blob/main/Library%20Import/requirements.py/requirements.py).
+
 
 ------------------------------------------------------------------------
 
