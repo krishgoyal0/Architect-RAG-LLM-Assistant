@@ -28,3 +28,16 @@ them for use in LLM pipelines.
 -   ⚡ RAG-ready dataset → Creates clean JSONL outputs for vector
     database ingestion.
 
+------------------------------------------------------------------------
+
+📦 Requirements
+
+Key dependencies: - pytesseract (OCR support) - pillow (image
+handling) - transformers (for tokenization / chunking) - torch (LLM
+support, optional) - pymupdf (PDF reading) - tqdm (progress bar)
+
+See full list in requirements.txt.
+
+------------------------------------------------------------------------
+
+
