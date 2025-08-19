@@ -10,7 +10,7 @@ import io
 # ========= CONFIG =========
 # Automatically resolve paths relative to script location
 BASE_DIR = Path(__file__).resolve().parent
-ROOT = (BASE_DIR / "../data").resolve()
+ROOT = (BASE_DIR / "../Dataset_PDFs").resolve()
 OUT = (BASE_DIR / "../cleaned").resolve()
 
 # OCR settings
