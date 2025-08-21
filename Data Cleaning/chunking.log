@@ -1,0 +1,14 @@
+2025-08-20 00:02:53,148 - INFO - Loaded tokenizer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-20 00:02:53,148 - INFO - Starting chunking process
+2025-08-20 00:02:53,149 - INFO - Found 4 files to process
+2025-08-20 00:02:53,149 - INFO - Using parallel processing
+2025-08-20 00:03:03,071 - INFO - Loaded tokenizer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-20 00:03:03,072 - INFO - Loaded tokenizer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-20 00:03:03,117 - INFO - Loaded tokenizer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-20 00:03:03,539 - INFO - Loaded tokenizer: sentence-transformers/all-MiniLM-L6-v2
+2025-08-20 00:07:10,994 - INFO - Completed building_codes.jsonl: kept=45876, skipped=0
+2025-08-20 00:07:10,996 - INFO - Completed case_studies.jsonl: kept=370, skipped=0
+2025-08-20 00:07:10,996 - INFO - Completed material_guide.jsonl: kept=1379, skipped=0
+2025-08-20 00:07:10,996 - INFO - Completed misc.jsonl: kept=398, skipped=0
+2025-08-20 00:07:12,011 - INFO - Chunking complete! Total kept: 48023, Total skipped: 0
+2025-08-20 00:07:12,011 - INFO - Output directory: D:\CODING\Machine Learning\Architect-RAG-LLM-Assistant\chunks
