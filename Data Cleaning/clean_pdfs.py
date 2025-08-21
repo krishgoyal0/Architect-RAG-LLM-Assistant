@@ -10,7 +10,7 @@ import io
 # ========= CONFIG =========
 # Automatically resolve paths relative to script location
 BASE_DIR = Path(__file__).resolve().parent
-ROOT = (BASE_DIR / "../data").resolve()
+ROOT = (BASE_DIR / "../Dataset_PDFs").resolve()
 OUT = (BASE_DIR / "../cleaned").resolve()
 
 # OCR settings
@@ -86,7 +86,7 @@ def main():
         if category_dir.is_dir():
             category = category_dir.name
             pdfs = list(category_dir.glob("*.pdf")) + list(category_dir.glob("*.PDF"))
-            print(f"[INFO] Category '{category}' → {len(pdfs)} PDFs found")
+            print(f"[INFO] Category '{category}' -> {len(pdfs)} PDFs found")
 
             if not pdfs:
                 continue
@@ -97,10 +97,10 @@ def main():
             with open(output_path, "w", encoding="utf-8") as out_f:
                 for pdf in pdfs:
                     pages_written = process_pdf(pdf, category, out_f)
-                    print(f"   [OK] {pdf.name} → {pages_written} pages cleaned")
+                    print(f"   [OK] {pdf.name} -> {pages_written} pages cleaned")
                     total_pages += pages_written
 
-            print(f"[DONE] Wrote {total_pages} pages for '{category}' → {output_path}")
+            print(f"[DONE] Wrote {total_pages} pages for '{category}' -> {output_path}")
 
     print("[COMPLETE] All PDFs processed.")
 

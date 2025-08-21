@@ -21,3 +21,6 @@ if __name__ == "__main__":
         print(f"[INSTALL] {package}")
         install(package)
     print("[DONE] All packages installed successfully!")
+
+
+pip install chromadb sentence-transformers ollama python-dotenv tqdm
