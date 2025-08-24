@@ -7,14 +7,15 @@ class Config:
     
     # ChromaDB settings
     COLLECTION_NAME = "architecture_research_papers"
-    PERSIST_DIRECTORY = "./chroma_db"
+
+    PERSIST_DIRECTORY = "./chroma_db"       #Here, we need a database file named "chroma_db, (having sub-file => chroma.sqlite3 + metadata) " to establish the database, in order to run the program.
     
     # JSONL files - update these paths to match your actual file locations
     JSONL_FILES = [
-        "D:\\CODING\\Machine Learning\\Architect-RAG-LLM-Assistant\\chunks\\building_codes_chunks.jsonl",
-        "D:\\CODING\\Machine Learning\\Architect-RAG-LLM-Assistant\\chunks\\case_studies_chunks.jsonl",
-        "D:\\CODING\\Machine Learning\\Architect-RAG-LLM-Assistant\\chunks\\material_guide_chunks.jsonl",
-        "D:\\CODING\\Machine Learning\\Architect-RAG-LLM-Assistant\\chunks\\misc_chunks.jsonl"
+        "C:\\Users\\Lenovo\\Documents\\GitHub\\Architect-RAG-LLM-Assistant\\chunks\\building_codes_chunks.jsonl",
+        "C:\\Users\\Lenovo\\Documents\\GitHub\\Architect-RAG-LLM-Assistant\\chunks\\case_studies_chunks.jsonl",
+        "C:\\Users\\Lenovo\\Documents\\GitHub\\Architect-RAG-LLM-Assistant\\chunks\\material_guide_chunks.jsonl",
+        "C:\\Users\\Lenovo\\Documents\\GitHub\\Architect-RAG-LLM-Assistant\\chunks\\misc_chunks.jsonl"
     ]
     
     # Ollama settings
